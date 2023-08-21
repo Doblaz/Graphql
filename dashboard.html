@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<header>
+    <h1 id="bjr"></h1>
+    <section class="logout"><input type="button" value="Logout" onclick="logout()">
+    </section>
+</header>
+<body>
+    <section id="infos"></section>
+    <section id="recap"></section>
+    <section class="profile-section" id="userRatio"></section>
+    <section class="profile-section" id="userStats">
+        <div id="pieDiv">
+            <svg id="pie" width="200" height="200"></svg>
+        </div>
+        
+        <div id="barDiv">
+            <svg id="barChart" width="600" height="400"></svg>
+        </div>
+        </section>
+</body>
+<script src="/main.js"></script>
+</html>
